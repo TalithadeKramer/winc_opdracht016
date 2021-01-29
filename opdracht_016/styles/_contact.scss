@@ -1,0 +1,15 @@
+.contact {
+    padding: $padding;
+  }
+  .contact__wrapper .contact {
+    @include flex;
+  }
+  .contact__form-wrapper,
+  .contact__wrapper {
+    padding: 20px;
+  }
+  
+  .copy__wrapper {
+    padding-left: 20px;
+  }
+  

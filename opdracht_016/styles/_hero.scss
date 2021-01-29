@@ -1,0 +1,17 @@
+.hero {
+    padding: $padding;
+    @include flex;
+    height: 100vh;
+    background: $background_green;
+    .hero__img img {
+        display: block;
+        height: auto;
+        width: 15.5em;
+      }
+  .hero__text {
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+  

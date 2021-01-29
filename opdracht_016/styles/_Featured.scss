@@ -1,0 +1,19 @@
+.featured {
+    padding: $padding;
+}
+    .featured .featured__wrapper {
+@include flex;
+  }
+  #featured .featured__image img {
+    width: 300px; 
+  }
+  .featured__text {
+    max-width: 700px;
+    text-align: center;
+    padding: 20px;
+  }
+  .featured__text p {
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.4em;
+  }
